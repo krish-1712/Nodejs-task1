@@ -31,8 +31,6 @@ const timeStamp =`Last Created TimeStamp : ${dateString}`
     res.sendFile(path.join(__dirname,"timestamps/date-time.txt"));
 })
 
-app.get("/",(req,res)=>{
-    res.send("hi how are u?")
-})
+
 
 app.listen(5000,()=> console.log(`server started in localhost:5000`))
